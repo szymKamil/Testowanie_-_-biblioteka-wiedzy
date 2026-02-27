@@ -5,6 +5,7 @@ Repozytorium zawiera zbiór notatek/wiedzy związanej z najwazniejszycmi aspekta
 Genezą tego były notatki dotyczące testów automatycznych Selenium + frameworków, które powstawały w trakcie mojej nauki tego narzędzia. Jest tego moim zdaniem dośc sporo, a to tylko niewielki fragment wiedzy dotyczacej automatyzacji czy ogólnie testowania. Wraz z rozwojem zawodowym dostrzegłem, że tego rodzaju notaki warto rozbudowywać o inne obszary, stąd nieco bardziej rozbudowany spis treści.
 
 Mam ambitny pomysł rozbudowywać po godzinach ten zasób wiedzy w formę rozbudowanej biblioteki, kompednium wiedzy potrzebnej każdemu testerowi, szczególnie automatyzującemu. Aktualnie informacji dostępnych w sieci jest aż zanadto, szczeóglnie że wiele z niej można uzyskać od dowolnego AI (Gemini, ChatGPT, Claude). Samemu kożystam także z tych źródeł, jednak fundamenty pozostają te same - trzeba wiedzieć o co pytać, a tego rodzaju pytania rodzą się czesto z praktyki. I na tej praktyce i codziennych wyzwaniach buduję te fundamenty.
+Dodatkowo, wiele infromacji można pozysać z tak archaicznych źródeł, jak książki ☜(ﾟヮﾟ☜) dlatego biblioteka ta będzie kompilacją różnych źródeł, co może być właśnie jej istotną zaletą.
 
 Niestety, z racji, że rozwijam to po godzinach, wielu rzeczy wciąż brakuje, niektóre tematy są tylko zarysowane w spisie treści czy podstronach do uzupełnienia. Dlatego pozwolę sobie orientacyjnie wypisać (za pomocą AI), co na ten moment zostało zrobione:
 
@@ -44,11 +45,12 @@ Te notatki są dobrze opracowane, zawierają solidną wiedzę i praktyczne przyk
   - Każdy temat ma własny plik z przykładami
   - **Idealnie dla testerów piszących automat w Javie**
 
-- **[TypeScript](Testowanie/Typescript%2030e3f0d8989e80df9a6fe47b5f4713aa.md)** – Dobrze ustrukturyzowane
-  - 11 sekcji (Typy, Funkcje, Obiekty, Klasy, Generyki, Utility Types, Moduły)
+- **[TypeScript](Testowanie/Typescript%2030e3f0d8989e80df9a6fe47b5f4713aa.md)** – Kompletny przewodnik (1500+ linii)
+  - 11 sekcji fundamentów (Typy, Funkcje, Obiekty, Klasy, Generyki, Utility Types, Moduły)
   - Praktyczne zastosowania w Playwright
+  - **NOWE:** 3 rozdziały testowania (Async & Błędy, Unit Testing, Praktyka testowa)
   - Dobre praktyki
-  - **Przydatny dla automatyzacji w JS/TS**
+  - **Pełny kompendium dla automatyzacji w JS/TS**
 
 - **[Docker](Testowanie/Docker%202e83f0d8989e80b2911dd454177d17b1.md)** – Praktyczne (147 linii + podfoldery)
   - Dobrze wyjaśniona różnica między obrazami a kontenerami
