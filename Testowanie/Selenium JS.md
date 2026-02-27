@@ -1,18 +1,18 @@
-# Selenium/JS
+﻿# Selenium/JS
 
-[Materiały online dot. Selenium](Selenium%20JS/Materia%C5%82y%20online%20dot%20Selenium%201f03f0d8989e80adbdfedbc1b087b3f6.md)
+[Materiały online dot. Selenium](Selenium%20JS/Materia%C5%82y%20online%20dot%20Selenium%20.md)
 
-[Teoria dot. testów automatycznych](Teoria%20dot%20test%C3%B3w%20automatycznych%201f73f0d8989e80c29df5e6778e1a2ead.md)
+[Teoria dot. testów automatycznych](Teoria%20dot%20test%C3%B3w%20automatycznych%20.md)
 
-[Metodologia testów automatycznych](Selenium%20JS/Metodologia%20test%C3%B3w%20automatycznych%2024e3f0d8989e80d297b0c0280c22bda5.md)
+[Metodologia testów automatycznych](Selenium%20JS/Metodologia%20test%C3%B3w%20automatycznych%20.md)
 
-[Praktyki tworzenia kodu ](Selenium%20JS/Praktyki%20tworzenia%20kodu%202543f0d8989e80308015d5cb5c0fa9d8.md)
+[Praktyki tworzenia kodu ](Selenium%20JS/Praktyki%20tworzenia%20kodu%20.md)
 
-[Problemy techniczne Selenium](Selenium%20JS/Problemy%20techniczne%20Selenium%202553f0d8989e803984d8c2a769b26913.md)
+[Problemy techniczne Selenium](Selenium%20JS/Problemy%20techniczne%20Selenium%20.md)
 
-[Cucumber](Selenium%20JS/Cucumber%202573f0d8989e808fb11adfc3588dc13e.md)
+[Cucumber](Selenium%20JS/Cucumber%20.md)
 
-[Materiały uzupełniające](Selenium%20JS/Materia%C5%82y%20uzupe%C5%82niaj%C4%85ce%202e63f0d8989e80f9be20d26ae8fbbe6e.md)
+[Materiały uzupełniające](Selenium%20JS/Materia%C5%82y%20uzupe%C5%82niaj%C4%85ce%20.md)
 
 <aside>
 💡
@@ -300,7 +300,7 @@ public class MySeleniumTest {
 
 `WebDriverManager` automatycznie wykryje wersję przeglądarki zainstalowanej w systemie, pobierze odpowiednią wersję sterownika i skonfiguruje niezbędne właściwości systemowe Javy. Biblioteka ta pomaga również w utrzymaniu kompatybilności między sterownikiem a przeglądarką, co jest istotne, ponieważ przeglądarki często się automatycznie aktualizują.
 
-[Przeglądarki a Selenium ](Selenium%20JS/Przegl%C4%85darki%20a%20Selenium%2025b3f0d8989e8060add7c42056c36d1f.md)
+[Przeglądarki a Selenium ](Selenium%20JS/Przegl%C4%85darki%20a%20Selenium%20.md)
 
 ## Lokalny WebDriver
 
@@ -787,7 +787,7 @@ IGNORE("ignore");`
 
 SessionId sessionId = ((RemoteWebDriver) driver).getSessionId(); | String | Metoda nie należy do klasy RemoteWeb Driver, to metoda pomocnicza, a nie podstawowa metoda WebDrivera, jednak została tu umieszczona ze względu na podobne wykorzystanie jej co powyższe. W praktyce typy, których używamy do sterowania przeglądarkami (np. ChromeDriver, FirefoxDriver itp.) dziedziczą po tej klasie. Dlatego musimy po prostu rzutować obiekt WebDriver na RemoteWebDriver, aby wywołać metodę getSessionId() |
 
-Jednym z najistotniejszych aspektów API Selenium WebDriver jest możliwość interakcji z różnymi elementami strony internetowej. Elementy te są obsługiwane przez Selenium WebDriver przy użyciu interfejsu WebElement, będącego abstrakcją dla elementów HTML. Metoda findElement() zwraca pierwsze wystąpienie (jeśli istnieje) danego węzła (node) w obiektowym modelu dokumentu (DOM) [Teoria dot. testów automatycznych](Teoria%20dot%20test%C3%B3w%20automatycznych%201f73f0d8989e80c29df5e6778e1a2ead.md) . Po drugie, metoda findElement() zwraca listę węzłów DOM. Obie metody akceptują parametr By, który określa strategię lokalizacji. 
+Jednym z najistotniejszych aspektów API Selenium WebDriver jest możliwość interakcji z różnymi elementami strony internetowej. Elementy te są obsługiwane przez Selenium WebDriver przy użyciu interfejsu WebElement, będącego abstrakcją dla elementów HTML. Metoda findElement() zwraca pierwsze wystąpienie (jeśli istnieje) danego węzła (node) w obiektowym modelu dokumentu (DOM) [Teoria dot. testów automatycznych](Teoria%20dot%20test%C3%B3w%20automatycznych%20.md) . Po drugie, metoda findElement() zwraca listę węzłów DOM. Obie metody akceptują parametr By, który określa strategię lokalizacji. 
 
 | **Metoda** | **Opis** |
 | --- | --- |
@@ -2232,7 +2232,7 @@ wait.until(driver -> expectedFile.exists() && expectedFile.length() > 0);
 
 Typy MIME: https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/MIME_types
 
-[Pobieranie pików w środowisku zdalnym (np. kontener Dockera na serwerze).](Selenium%20JS/Pobieranie%20pik%C3%B3w%20w%20%C5%9Brodowisku%20zdalnym%20(np%20kontener%202b53f0d8989e80369d11db87110074e2.md)
+[Pobieranie pików w środowisku zdalnym (np. kontener Dockera na serwerze).](Selenium%20JS/Pobieranie%20pik%C3%B3w%20w%20%C5%9Brodowisku%20zdalnym%20(np%20kontener%20.md)
 
 # **Chrome DevTools**
 
@@ -2710,7 +2710,7 @@ Files.write(destinationFile, decodedImg);
 
 WebDriver BiDi to szkic specyfikacji W3C, który definiuje dwukierunkowy protokół WebDriver. Zamiast ścisłego formatu polecenie/odpowiedź protokołu WebDriver, BiDi wprowadza połączenie WebSocket między sterownikiem a przeglądarką, aby umożliwić dwukierunkową komunikację. W ten sposób WebDriver BiDi pozwoli na wykonywanie różnych operacji przy użyciu szybkiego, dwukierunkowego transportu (czyli bez odpytywania przeglądarki w celu uzyskania odpowiedzi). W Selenium WebDriver celem jest, aby BiDi w dłuższej perspektywie stał się standardowym zamiennikiem zaawansowanych operacji obecnie obsługiwanych przez CDP. Na przykład API Selenium WebDriver umożliwia implementację nasłuchiwaczy zdarzeń poprzez interfejs HasLogEvents. Interfejs ten działa obecnie w oparciu o CDP. Niemniej jednak w przyszłych wersjach Selenium WebDriver będzie wykorzystywał BiDi wewnętrznie, zapewniając bardziej niezawodną kompatybilność między przeglądarkami. HasLogEvents pozwala na implementację nasłuchiwaczy dla następujących zdarzeń:
 
-[BiDi](Selenium%20JS/BiDi%202c83f0d8989e80538c2ee33b536dfd34.md)
+[BiDi](Selenium%20JS/BiDi%20.md)
 
 ```java
 @Test
@@ -2742,19 +2742,19 @@ Frameworki testów jednostkowych są podstawą do tworzenia różnych typów tes
 
 Wyróżniamy:
 
-[JUnit4](Selenium%20JS/JUnit4%202183f0d8989e80279e12d632a392ec66.md)
+[JUnit4](Selenium%20JS/JUnit4%20.md)
 
-[JUnit5](Selenium%20JS/JUnit5%202183f0d8989e80949605df857add54df.md)
+[JUnit5](Selenium%20JS/JUnit5%20.md)
 
-[TestNG](Selenium%20JS/TestNG%2025a3f0d8989e809793cff689193116b4.md)
+[TestNG](Selenium%20JS/TestNG%20.md)
 
 ## Dodatkowe narzędzia
 
-[Dodatki i narzędzia](Selenium%20JS/Dodatki%20i%20narz%C4%99dzia%201f03f0d8989e80a0b129ddf5a9ebfac6.md)
+[Dodatki i narzędzia](Selenium%20JS/Dodatki%20i%20narz%C4%99dzia%20.md)
 
 [AssertJ](https://assertj.github.io/doc/) - framework ułatwiający asercje w testach.
 
-[Allure](Selenium%20JS/Allure%2025b3f0d8989e80f2905ac8c7ac2114d1.md)
+[Allure](Selenium%20JS/Allure%20.md)
 
 https://www.slf4j.org/manual.html - logger zdarzeń testu.
 
@@ -2851,7 +2851,7 @@ Grid może działać też jako “osobna aplikacja” postawiona gdzieś na serw
 
 # Docker
 
-Więcej na temat pracy z Dockerem na stronie 📄 [Docker](Docker%202e83f0d8989e80b2911dd454177d17b1.md) 
+Więcej na temat pracy z Dockerem na stronie 📄 [Docker](Docker%20.md) 
 
 Docker to technologia oprogramowania typu open source, która umożliwia użytkownikom pakowanie i uruchamianie aplikacji jako lekkich, przenośnych kontenerów. Platforma Docker składa się z dwóch głównych komponentów: `Docker Engine`  - narzędzie do tworzenia i uruchamiania kontenerów, oraz `Docker Hub`  - usługa w chmurze do dystrybucji obrazów Docker. W domenie Selenium możemy używać Dockera do pakowania i uruchamiania skonteneryzowanych przeglądarek.
 

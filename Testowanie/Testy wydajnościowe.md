@@ -1,8 +1,8 @@
-# Testy wydajnościowe
+﻿# Testy wydajnościowe
 
-[Jmetter](Testy%20wydajno%C5%9Bciowe/Jmetter%203043f0d8989e8096b6affb6a8b6e2435.md)
+[Jmetter](Testy%20wydajno%C5%9Bciowe/Jmetter%20.md)
 
-[k6](Testy%20wydajno%C5%9Bciowe/k6%203043f0d8989e8045b78bfb853bd024af.md)
+[k6](Testy%20wydajno%C5%9Bciowe/k6%20.md)
 
 ![image.png](Testy%20wydajno%C5%9Bciowe/image.png)
 
