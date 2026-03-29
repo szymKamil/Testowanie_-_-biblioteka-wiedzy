@@ -9,7 +9,7 @@ Dodatkowo, wiele infromacji można pozysać z tak archaicznych źródeł, jak ks
 
 Niestety, z racji, że rozwijam to po godzinach, wielu rzeczy wciąż brakuje, niektóre tematy są tylko zarysowane w spisie treści czy podstronach do uzupełnienia. Dlatego pozwolę sobie orientacyjnie wypisać (za pomocą AI), co na ten moment zostało zrobione:
 
-## Zakres materiału 27.02.2026
+## Zakres materiału 29.03.2026 
 
 ---
 
@@ -36,6 +36,11 @@ Te notatki są dobrze opracowane, zawierają solidną wiedzę i praktyczne przyk
   - Metryki: Response Time, Throughput, Error Rate, Apdex
   - Prawo Little'a i architektura k6
   - Podfoldery: JMeter i k6
+
+  - **[Playwright TS](Testowanie/Playwright%20TS.md)** – Solidne fundamenty (>4000 linii)
+  - Kompletna ściągawka pracy z Playwright w najwazniejszych aspektach narzędzia.
+  - _Status: Gotowe, możliwe, że do rozwinięcia w przyszłości o nowe treści.
+  - **Warte przeczytania dla każdego testera automatyzującego**
 
 ### ⭐⭐ DOBRZE OPRACOWANE
 
@@ -84,9 +89,6 @@ Te notatki są dobrze opracowane, zawierają solidną wiedzę i praktyczne przyk
 
 Te notatki zostały rozpoczęte, ale wymagają dodatkowej pracy:
 
-- **[Playwright TS](Testowanie/Playwright%20TS.md)** – Zaledwie stub
-  - Wymaga pełnego opracowania analogicznego do Selenium JS
-  - _Status: Do uzupełnienia_
 
 - **[Git](Testowanie/Git.md)** – Brak treści
   - _Status: Do uzupełnienia_
